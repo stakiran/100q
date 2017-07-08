@@ -21,6 +21,12 @@
 
 ~~Author によるサンプルはこちら: [ソフトウェアエンジニアに100の質問 by stakiran](100q_sample.md)~~
 
+## ビルダーについて
+
+100の質問を作る際、いちいち質問番号を振るのがだるいので、質問一覧から番号付き質問一覧を生成する仕組みを導入しています。
+
+[100q_src.md](100q_src.md) に所定フォーマットで質問を書き、[builder.py](builder.py) に食わせてやると、番号付きの [100q.md](100q.md) が生成されます。Requirement は Windows7+ と Python2.7 です。
+
 ## ライセンス
 
-[Public Domain](LICENSE) です。ご自由にご利用ください。
+[100q.md](100q.md) と [100q_src.md](100q_src.md) のみ [Public Domain](LICENSE1) です。残りのファイルは全て [MIT License](LICENSE2) です。
